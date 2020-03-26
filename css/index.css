@@ -132,6 +132,14 @@ table {
 }
 html {
   font-size: 62.5%;
+  background-image: url(/img/weed-bg.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  margin: auto 2%;
 }
 html,
 body {
