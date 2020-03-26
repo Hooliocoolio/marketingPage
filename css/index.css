@@ -1,7 +1,5 @@
 .container {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   height: 1000px;
   background-color: #ffffff;
 }
@@ -10,6 +8,10 @@ header {
   height: 5%;
   background-color: #12a324;
   border-bottom: 1px solid #2c9ab7;
+}
+header nav ul {
+  list-style: none;
+  float: right;
 }
 .logo {
   color: #fff;
@@ -25,10 +27,6 @@ nav {
   width: 50%;
   text-align: right;
   margin-right: 25px;
-}
-header nav ul {
-  list-style: none;
-  float: right;
 }
 nav ul li {
   float: left;
