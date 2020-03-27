@@ -1,16 +1,20 @@
 .container{
     .flex-spacing(center, center);
     flex-direction: row-reverse;
-    margin: auto;
-    padding: 10px;
-    width: 75%;
-    background-color: @main-bg;
+    .standard-sizing(auto, 2px);
+    background-color: @border-brown;
     .subhead{
-        width: 49%;
+        margin:1% auto;
+        width: 29%;
         .center();
         img{
-            height: 200px;
-        }
+            height: 150px;  
+            border-radius: 50%;   
+        }        
+    }
+    .subhead2{
+    
+        width: 70%;
         nav{
             .flex-spacing(space-around, center);
             width: 100%;
@@ -18,10 +22,10 @@
             a{
                 font-size: 6rem;
                 text-decoration: none;
-                color: @font-color;
+                color: @font-blue;
             }
             a:hover{
-                color: @hover-color;
+                color: @headerfont-color;
             }
         }
     }

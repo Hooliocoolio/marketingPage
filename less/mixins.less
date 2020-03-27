@@ -4,6 +4,11 @@
     justify-content: @j;
     align-items: @a;
 }
+.standard-sizing(@m, @p){
+    margin: @m;
+    padding: @p;
+    width: 75%;
+}
 .center(){
     display: flex;
     justify-content: center;
@@ -11,7 +16,7 @@
 }
 .button(@b, @txt-color, @txt-size){
     .center();
-    width: 83%;
+    width: 50%;
     height: 45px;
     border-radius: 15px;
     background-color: @b;

@@ -1,0 +1,46 @@
+.main-content{
+    .flex-spacing(flex-between, center);
+    .standard-sizing(5% auto, 0);
+    .image-cont{
+        height: 100%;
+        .center();
+        width: 49%;
+        img{
+            width: 95%;
+            height: 500px;
+        }
+    }
+    .text-cont{
+        // background-color: @main-bg;
+        // border: 3px solid @border;
+        height: 100%;        
+        margin: auto;
+        max-height: 500px;
+        .standard-sizing(5% auto, 10px);
+        width: 49%;
+        .flex-spacing(center, center);
+        flex-direction: column;
+        text-align: center;
+        h1{
+            color: @mainfontcolor;
+            margin: 2.5% auto;
+            font-size: 8rem;
+            text-decoration: underline;
+            text-decoration-color: @border;
+        }
+        p{
+            margin: 7% auto;
+            padding: 2% auto;
+            font-size: 4rem;
+            color: @mainfontcolor;
+        }
+        button{
+            .button(@border, @mainfontcolor, 2.5rem);
+            margin: 5% auto;
+        }
+        button:hover{
+            background-color: @slime-green;
+            color: @green;
+        }
+    }
+}
