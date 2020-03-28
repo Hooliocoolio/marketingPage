@@ -1,0 +1,35 @@
+  
+.flex-spacing(@j, @a){
+    display: flex;
+    justify-content: @j;
+    align-items: @a;
+}
+.standard-sizing(@m, @p){
+    margin: @m;
+    padding: @p;
+    width: 75%;
+}
+.center(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button(@b, @txt-color, @txt-size){
+    .center();
+    width: 50%;
+    padding: 2%;
+    height: 75px;
+    border-radius: 15px;
+    background-color: @b;
+    color: @txt-color;
+    font-size: @txt-size;
+    @media @mobile{
+        width: 100%;
+    }
+}
+.mobile-flexDirection(@dir, @j){
+    display: flex;
+    flex-direction: @dir;
+    justify-content: @j;
+    align-items: center;
+}
