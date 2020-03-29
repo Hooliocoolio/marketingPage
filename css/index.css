@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 body {
   margin: auto;
   background-image: url(https://raw.githubusercontent.com/Build-Week-Bootcamp-Med-Cabinet/marketingPage/master/img/weed-bg.jpg);
   font-family: "Roboto", sans-serif;
   color: white;
 }
-
 header {
   display: flex;
   justify-content: space-between;
@@ -15,7 +13,6 @@ header {
   width: 80%;
   background-color: #a98c6a;
 }
-
 header nav {
   width: 40%;
   display: flex;
@@ -23,28 +20,23 @@ header nav {
   justify-content: space-evenly;
   font-size: 30px;
 }
-
 header nav a {
   text-decoration: none;
   color: #e1e9eb;
 }
-
 header nav a a:hover {
   color: #12a324;
   font-weight: bolder;
 }
-
 .logopic {
   height: 80px;
   border-radius: 50%;
   margin-right: 13px;
 }
-
 .main-content {
   margin: auto;
   width: 80%;
 }
-
 .motto,
 h1 {
   color: #12a324;
@@ -52,7 +44,6 @@ h1 {
   text-decoration-color: #a98c6a;
   text-align: center;
 }
-
 .box {
   margin: auto;
   width: 80%;
@@ -60,18 +51,15 @@ h1 {
   justify-content: space-evenly;
   align-items: center;
 }
-
 .box .image {
   display: flex;
   align-items: center;
 }
-
 #mid-image {
   height: 300px;
   width: 300px;
   vertical-align: middle;
 }
-
 .text-cont {
   margin: auto;
   height: 600px;
@@ -82,11 +70,9 @@ h1 {
   flex-direction: column;
   text-align: center;
 }
-
 .text-cont p {
   font-size: 2rem;
 }
-
 button {
   display: flex;
   justify-content: center;
@@ -99,19 +85,16 @@ button {
   font-size: 30px;
   margin: 10px;
 }
-
 p {
   margin: 10px;
   padding: 10px;
   font-size: 1rem;
 }
-
 .bottomcontent {
   margin: auto;
   width: 80%;
   display: flex;
 }
-
 footer {
   height: 50px;
   width: 80%;
@@ -122,63 +105,3 @@ footer {
   padding: 20px;
   text-align: center;
 }
-=======
-.container {
-  width: 100%;
-  height: 1000px;
-  background-color: #ffffff;
-}
-header {
-  width: 100%;
-  height: 5%;
-  background-color: #12a324;
-  border-bottom: 1px solid #2c9ab7;
-}
-header nav ul {
-  list-style: none;
-  float: right;
-}
-.logo {
-  color: #fff;
-  font-weight: bold;
-  width: 20%;
-  float: left;
-  margin-top: 15px;
-  margin-left: 25px;
-  letter-spacing: 4px;
-}
-nav {
-  float: right;
-  width: 50%;
-  text-align: right;
-  margin-right: 25px;
-}
-nav ul li {
-  float: left;
-  color: #ffffff;
-  font-size: 14px;
-  text-align: left;
-  margin-right: 25px;
-  letter-spacing: 2px;
-  font-weight: bold;
-  transition: all 0.3s linear;
-}
-ul li a {
-  color: #ffffff;
-  text-decoration: none;
-}
-ul li:hover a {
-  color: #2c9ab7;
-}
-.hero {
-  background-image: url("../images/cover.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  text-align: center;
-  max-width: 100%;
-  height: 100%;
-}
-#hero {
-  color: white;
-}
->>>>>>> da540d6c99cc1ec02c277f3fc60567aff2c88480
