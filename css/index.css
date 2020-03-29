@@ -1,3 +1,4 @@
+
 body {
   margin: auto;
   background-image: url(https://raw.githubusercontent.com/Build-Week-Bootcamp-Med-Cabinet/marketingPage/master/img/weed-bg.jpg);
@@ -70,6 +71,7 @@ h1 {
   flex-direction: column;
   text-align: center;
 }
+
 .text-cont p {
   font-size: 2rem;
 }
@@ -104,4 +106,4 @@ footer {
   margin-top: 40px;
   padding: 20px;
   text-align: center;
-}
+
